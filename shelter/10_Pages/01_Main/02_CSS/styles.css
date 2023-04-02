@@ -93,11 +93,50 @@
     font-size: 15px;
     line-height: 160%;
     color: #CDCDCD;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    text-align:justify;
 
+}
+
+.button_primary_text {
+    font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 130%;
+	color: #292929;
+	text-decoration: none;
+	padding: 1.17% 3.52% ;
+	border-radius: 100px;
+	
+	background: #F1CDB3;
 }
 
 
 
+.start-screen-puppy{
+	
+	width: 55%;
+	
+}
+
+.start-screen-puppy_img{
+	width: 100%;
+}
+
+@media (max-width: 769px) {
+	.Content {
+		display: flex;
+		flex-direction: column;
+		align-content: stretch;
+		margin: 0px 3.125%;
+		flex-wrap: nowrap;
+		align-items: center;
+	}
+	.start-screen-puppy{
+		display: flex;
+		width: 80%;
+		
+	}
+
+}
+	
