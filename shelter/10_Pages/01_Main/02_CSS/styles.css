@@ -5,9 +5,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-	margin: 2.34%  3.125% ;
-
-	
+	margin: 0px  3.125% ;
+	padding: 2.344% 0px ;
 }
 
 .Subtitle, .Title {
@@ -25,6 +24,8 @@
 }
 .Start_skreen, .Header{
 	background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) , #211F20;
+
+
 }
 
 
@@ -64,5 +65,39 @@
 .itom {
 	padding: 10px;
 }
+
+.Content{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-around;
+	margin: 0px  3.125% ;
+}
+.Heading{
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 130%;
+	color: #FFFFFF;
+	margin: 0px ;
+}
+
+.Subheading{
+	
+	margin: 3.125% 3.125% 3.125% 0;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+}
+
 
 
