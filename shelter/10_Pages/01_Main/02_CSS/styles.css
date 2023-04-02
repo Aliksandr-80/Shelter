@@ -1,10 +1,49 @@
 /* Стили */
 
-.Header {
+.Header-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+	margin: 2.34%  3.125% ;
+
+	
+}
+
+.Subtitle, .Title {
+	margin: 0;
+}
+
+.Header-Logo {
+	
+	display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+.Start_skreen, .Header{
+	background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) , #211F20;
+}
+
+
+.Title{
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 110%;
+	color: #F1CDB3;
+}
+
+.Subtitle{
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 15px;
+	color: #FFFFFF;
 }
 
 
